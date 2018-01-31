@@ -59,8 +59,8 @@ export default class home extends React.Component {
             <Layout>
                 <style dangerouslySetInnerHTML={{ __html: homestyle }}/>
                 <header>
-                    <a className="logo" href="/">
-                        <span className="logo-text"><i className="fa fa-file-code-o" aria-hidden="true"></i> {header.logo_title}</span>
+                    <a className="logo" href="#">
+                        <img className="" src={header.logo_image.url} />
                     </a>
                     <nav className="nav-menu">
                         {nav}
@@ -71,7 +71,6 @@ export default class home extends React.Component {
                         <div>
                             <div id="">
                                 <div className="hero-banner" id="">
-
                                    {herobanner}
                                 </div>
                                 <div className="portpolio clearfix">

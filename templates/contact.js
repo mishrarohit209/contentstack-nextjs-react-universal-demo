@@ -28,8 +28,8 @@ export default class Contact extends React.Component {
         return (
             <Layout>
                 <header>
-                    <a className="logo" href="/">
-                        <span className="logo-text"><i className="fa fa-file-code-o" aria-hidden="true"></i> {header.logo_title}</span>
+                    <a className="logo" href="#">
+                        <img className="" src={header.logo_image.url} />
                     </a>
                     <nav className="nav-menu">
                         {nav}
