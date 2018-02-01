@@ -96,7 +96,14 @@ export default `
         position: relative;
         float: left;
         text-decoration: none;
+        width: 140px;
     }
+    .logo img{
+        width:100%;
+        height: auto;
+    }
+
+
     .logo .logo-text {
         display: inline-block;
         padding-top: 14px;
