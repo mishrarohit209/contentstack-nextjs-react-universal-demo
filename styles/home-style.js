@@ -90,13 +90,15 @@ export default `
         z-index: 9;
     }
     .logo {
-        margin-left: 15px;
-        margin-top: 15px;
+        margin-left: 25px;
+        margin-top: 13px;
         color: #fff;
         position: relative;
         float: left;
         text-decoration: none;
-        width: 140px;
+        width: 170px;
+        display: block;
+        height: 50px;
     }
     .logo img{
         width:100%;

@@ -46,9 +46,6 @@ var _home2 = _interopRequireDefault(_home);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = '/home/rohit/contentstack-nextjs-react-universal-demo/pages/index.js?entry';
-
-
 var Home = function (_React$Component) {
   (0, _inherits3.default)(Home, _React$Component);
 
@@ -62,11 +59,7 @@ var Home = function (_React$Component) {
     key: 'render',
     value: function render() {
       var page = this.props[0];
-      return _react2.default.createElement(_home2.default, { page: page, __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        }
-      });
+      return _react2.default.createElement(_home2.default, { page: page });
     }
   }], [{
     key: 'getInitialProps',
@@ -104,4 +97,3 @@ var Home = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Home;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2luZGV4LmpzIl0sIm5hbWVzIjpbIlJlYWN0IiwiSG9tZXBhZ2UiLCJIb21lIiwicGFnZSIsInByb3BzIiwiZGF0YSIsIlF1ZXJ5IiwiU3RhY2siLCJDb250ZW50VHlwZSIsImluY2x1ZGVSZWZlcmVuY2UiLCJ0b0pTT04iLCJmaW5kIiwidGhlbiIsInN1Y2Nlc3MiLCJyZXN1bHQiLCJyZXNvbHZlIiwiZXJyb3IiLCJDb21wb25lbnQiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsQUFBTzs7OztBQUNQLEFBQU8sQUFBYzs7Ozs7Ozs7O0lBQ0EsQTs7Ozs7Ozs7Ozs7NkJBZVQsQUFDUjtVQUFNLE9BQU8sS0FBQSxBQUFLLE1BQWxCLEFBQWEsQUFBVyxBQUN4Qjs2QkFBTyxBQUFDLGdDQUFTLE1BQVYsQUFBZ0I7b0JBQWhCO3NCQUFQLEFBQU8sQUFFUjtBQUZRO09BQUE7Ozs7Ozs7Ozs7bUJBZkM7QSw2Q0FBbUIsbUJBQVcsQUFDaEM7c0JBQUssY0FBUSxBQUFNLFlBQU4sQUFBa0IsUUFBbEIsQUFBMEIsUUFBMUIsQUFDUixpQkFEUSxBQUNTLG9CQURULEFBQzRCLG9CQUQ1QixBQUVSLFNBRlEsQUFHUixPQUhRLEFBSVIsS0FBSyxTQUFBLEFBQVMsUUFBVCxBQUFpQixRQUFRLEFBQzNCOzRCQUFBLEFBQVEsQUFDWDtBQU5RLG1CQUFBLEVBTU4sU0FBQSxBQUFTLE1BQVQsQUFBZSxPQUFPLEFBRXhCLENBUkwsQUFBYSxBQVNoQjtBQVZZLEEsaUJBQUE7aURBV04sQTs7Ozs7Ozs7Ozs7Ozs7Ozs7OztFQWJxQixnQkFBTSxBOztrQkFBbkIsQSIsImZpbGUiOiJpbmRleC5qcz9lbnRyeSIsInNvdXJjZVJvb3QiOiIvaG9tZS9yb2hpdC9jb250ZW50c3RhY2stbmV4dGpzLXJlYWN0LXVuaXZlcnNhbC1kZW1vIn0=
